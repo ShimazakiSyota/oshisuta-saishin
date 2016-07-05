@@ -1,0 +1,21 @@
+﻿<HTML>
+<HEAD>
+<TITLE>ログイン</TITLE>
+</HEAD>
+
+<BODY>
+　　　
+<center>
+<H1>イベント管理システム</H1>
+
+
+<form action="./kanri.php" method = "POST">
+ユーザーID : <INPUT TYPE="TEXT" size="15" maxlength="8"  style="font-family:Tahoma; ime-mode:disabled;" NAME="id" pattern="^[0-9]+$" title="半角数字で入力してください" required ><br /><br />
+パスワード : <INPUT TYPE="PASSWORD" size="15" maxlength="8"  style="font-family:Tahoma; ime-mode:disabled;" NAME="pass" pattern="^[0-9A-Za-z]+$" title="半角英数文字で入力してください" required >
+<br /><br />
+<input type ="submit" value="ログイン" />
+</form>
+<br /><br />
+</center>
+</BODY>
+</HTML>

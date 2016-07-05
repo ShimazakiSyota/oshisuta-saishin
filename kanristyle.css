@@ -1,0 +1,15 @@
+.head {
+background-color: #E0FFFF;
+}
+.left {
+position:relative;
+left:500px;
+}
+
+button {
+color: #fff; background-color:#ff88aa; border-style: none; WIDTH: 350px; HEIGHT: 80px
+}
+
+button.del {
+color: #fff; background-color:#dd6688; border-style: none; WIDTH: 200px; HEIGHT: 40px
+}
